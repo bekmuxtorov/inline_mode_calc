@@ -95,7 +95,7 @@ class Database:
             for user in users
         )
 
-    async def create_request(self, user_info: dict):
+    async def create_user(self, user_info: dict):
         id = user_info["id"]
         full_name = user_info["first_name"]
         username = user_info["username"]
